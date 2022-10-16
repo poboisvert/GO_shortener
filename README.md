@@ -42,9 +42,14 @@ go run main.go
 
 - model
     - goly.go
+        - contain the structure of the query to link go and postgres SQL under Gorm
     - model.go
+        - store the schema to communicate with the DB
 - server
     - crud.go
+        - contain all functions to link to an unique route
     - server.go
+        - contain all routes to perform an event
 - utils
     - random.go
+        - generate a random value
