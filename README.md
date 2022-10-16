@@ -53,3 +53,18 @@ go run main.go
 - utils
     - random.go
         - generate a random value
+
+
+## Postman
+
+url: localhost:5000/url
+
+Body: RAW with JSON format
+
+```bash
+{
+    "url_text": "",
+    "redirect": "https://mega.io/",
+    "random": true
+}
+```
