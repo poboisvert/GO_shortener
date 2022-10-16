@@ -39,3 +39,12 @@ go run main.go
 ```
 
 ## How it works
+
+- model
+    - goly.go
+    - model.go
+- server
+    - crud.go
+    - server.go
+- utils
+    - random.go
