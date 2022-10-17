@@ -59,6 +59,8 @@ go run main.go
 
 url: localhost:5000/url
 
+Method: POST
+
 Body: RAW with JSON format
 
 ```bash
